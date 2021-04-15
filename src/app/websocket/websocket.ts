@@ -11,7 +11,7 @@ export class WebSocket {
   webSocketEndPoint = 'http://localhost:8082/ws';
   stompClient: any;
   value = false;
-  topic = '/topic/greetings';
+  topic = '/topic/clone';
 
   constructor(private websiteService: WebsiteService) {}
 
